@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fontes do Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,200;1,500&display=swap" rel="stylesheet">
+    <!--Link Css-->
+    <link rel="stylesheet" href="estilos/style.css">
+    <!--Biblioteca de Icones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="menu.js" defer></script>
+    
+    <title>Projeto Esqueleto</title>
+</head>
+<body>
+    <header>
+        <div class="interface"> <!--DIV principal-->
+            
+            <div class="logo"><!--Inicio da logo-->
+                <a href="#">
+                    <img src="imagens/logo.png" alt="Logo da empresa">
+                </a>
+            </div> <!-- Fim da logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portifolio">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <!--Menu Mobile-->
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portifolio">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            </div> <!--Menu Mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </div> <!--interface-->
+    </header>    
+    
+    <main>
+        <section class="topo-site" id="home">
+            <div class="interface">
+                <div class="flex-universal">
+
+                    <div class="txt-topo-site">
+                        <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, vero perspiciatis magnam delectus quisquam dolorum illum iste hic sequi numquam asperiores deserunt, quod saepe assumenda eos temporibus? Nesciunt, cupiditate rem.</p>
+                    
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em Contato</button>
+                            </a>
+                        </div>
+                    </div> <!--txt topo site-->
+
+                    <div class="img-topo-site">
+                        <img src="imagens/pessoa.png" alt="Foto">
+                     </div><!--Img topo site--> 
+                   </div> <!--flex universal-->
+                </div> <!--interface-->
+        </section>
+    </main>
+
+    <section class="especialidades" id="especialidades">
+         <div class="interface"><!--Classe para dar espaços nas laterais-->
+            <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+            <div class="flex-universal"> <!--Classe para organizar dentro-->
+                
+                <div class="especialidades-box">
+                    <i class="bi bi-code-square"></i>
+                    <h3>Web Site</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias cum soluta vitae in iure mollitia, nihil voluptates.</p>
+                </div>
+
+                <div class="especialidades-box">
+                    <i class="bi bi-cart"></i>
+                    <h3>Loja Online</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias cum soluta vitae in iure mollitia, nihil voluptates.</p>
+                </div>
+
+                <div class="especialidades-box">
+                    <i class="bi bi-wordpress"></i>
+                    <h3>Blog</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias cum soluta vitae in iure mollitia, nihil voluptates.</p>
+                </div>
+
+            </div> <!--flex universal-->
+        </div>
+   </section>
+
+    <!--Sessao Sobre-->
+    <section class="sobre" id="sobre">
+        <div class="interface">
+            <div class="flex-universal">
+                
+                <div class="img-sobre">
+                    <img src="imagens/foto.png" alt="Minha foto">
+                </div> <!--img-sobre-->
+
+                <div class="txt-sobre">
+                    <h2>MUITO PRAZER! <span>SOU EDVALDO JÚNIOR.</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti suscipit distinctio sunt quis iste? Voluptates rerum ipsum sit iure quos quisquam accusantium itaque quo.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi est, eaque tempore maxime eius explicabo unde cumque voluptas libero quam quasi pariatur! Consequuntur numquam recusandae.</p>
+                
+                    <div class="btn-social">
+                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div>
+                
+                </div> <!--txt-sobre-->
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portifolio" id="portifolio">
+        <div class="interface">
+            <h2 class="titulo">MEU <span>PORTIFÓLIO</span></h2>
+            <div class="flex-universal">
+                <div class="img-port" style="background-image: url(imagens/imagem.jpg);">
+                    <div class="overlay">Projeto 1</div>
+                </div>
+                <div class="img-port" style="background-image: url(imagens/imagem.jpg);">
+                    <div class="overlay">Projeto 2</div>
+                </div>
+                <div class="img-port" style="background-image: url(imagens/imagem.jpg);">
+                    <div class="overlay">Projeto 3</div>
+                </div>
+            </div> <!--flex univesal-->
+        </div> <!--interface-->
+    </section> <!--Portifolio-->
+
+    <section class="formulario" id="contato">
+        <div class="interface">
+            <h2 class="titulo">FALA<span>COMIGO</span></h2> <!--Classe relacionado ao título verde e branco-->>
+
+            <form action="">
+                <input type="text" name="" id="" placeholder="Nome Completo:" required>
+                <input type="text" name="" id="" placeholder="E-mail:" required>
+                <input type="text" name="" id="" placeholder="Número de Celular:">
+                <textarea class="areatexto" rows="5" cols="30" maxlength="180" name="" id="" placeholder="Mensagem" required></textarea>
+                <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+            </form>
+
+        </div> <!--Interface-->
+    </section> <!--Formulário-->
+
+    <footer>
+        <div class="inteface">
+           <div class="line-footer">
+                <div class="flex-universal">
+                    <div class="logo-footer">
+                        <img src="imagens/logo.png" alt="Logo do rodape">
+                    </div> <!--Logo-Footer-->
+                    
+                    <div class="btn-social">
+                    <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                    <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                    <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div> <!--btn Social-->
+                
+                </div> <!--Flex Universal-->
+            </div> <!-- Line Footer-->
+            
+           <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:edvaldojunior@gmail.com">edvaldojunior@gmail.com</a></p>
+           </div> <!--Line-footer-->
+
+        </div> <!--Interface-->
+    </footer>
+
+
+</body>
+</html>
